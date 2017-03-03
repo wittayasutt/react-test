@@ -32,7 +32,7 @@ module.exports = {
       Example: path.resolve(__dirname, './app/components/Example.jsx'),
       openWeatherMap: path.resolve(__dirname, './app/api/openweatherMap.jsx'),
       ErrorModal: path.resolve(__dirname, './app/components/ErrorModal.jsx'),
-      applicationStyles: path.resolve(__dirname, './app/styles/app.css')
+      applicationStyles: path.resolve(__dirname, './app/styles/app.scss')
     }
   },
   module: {
