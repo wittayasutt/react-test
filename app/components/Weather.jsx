@@ -52,7 +52,7 @@ let Weather = React.createClass({
   },
   render: function () {
     let {isLoading, temp, location, errorMessage} = this.state
-
+    
     function renderMessage() {
       if (isLoading) {
         return <h3 className="text-center">Fetching weather...</h3>
